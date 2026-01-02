@@ -1,6 +1,6 @@
 # GPU_Tf
 
-If anyone faces the problem i was facing can implement the above lines of code. Tensorflow was not recognizing my Desired gpu gpu:1 and was Executing on Integrated GPU by default not even recognizing it.
+If anyone faces the problem i was facing can implement the above lines of code. Tensorflow was not recognizing my Desired gpu gpu:1 and was executing on Integrated GPU by default, not even recognizing it.
 One can the Activity of GPu while executing the code
 
 Before Execution follow the steps for installation
@@ -13,5 +13,12 @@ Before Execution follow the steps for installation
    ```conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0```<br>
    ```python -m pip install "tensorflow=2.10" "numpy==1.26.4"```<br>
 
-5) Test for your GPU if not detected then implement above python program
+5) Test for your GPU; if it is not detected, then implementthe  above Python program
    
+# GPU_Pytorch :
+
+1) Install the appropriate version from the URL after CUDA installation
+``` pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118 ```
+
+2) Test
+```pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118```
